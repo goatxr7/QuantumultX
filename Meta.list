@@ -1,8 +1,8 @@
-# MUSE AI / Meta - Quantumult X filter_remote
+# Meta - Quantumult X filter_remote
 # Adapted from FlClash MUSE AI routing. Use force-policy to select your own QX policy.
 # Upstream: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/meta.list
 # Upstream: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geoip/facebook.list
-# Upstream license: see MUSE-AI.LICENSE (GNU GPL v3).
+# Upstream license: see Meta.LICENSE (GNU GPL v3).
 # Changes: QX syntax conversion and exact duplicate removal.
 
 HOST,fbcdn-a.akamaihd.net,PROXY
