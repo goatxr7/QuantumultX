@@ -684,3 +684,9 @@ IP6-CIDR,2c0f:ef78:c::/47,PROXY
 IP6-CIDR,2c0f:ef78:10::/47,PROXY
 IP6-CIDR,2c0f:ef78:12::/48,PROXY
 HOST-KEYWORD,whatsapp,PROXY
+
+# Meta and Muse AI additions from https://ddgksf2013.top/filter/Ai.yaml
+HOST-SUFFIX,llamameta.net,PROXY
+HOST,production.museai.com,PROXY
+HOST,meta-ohttp-config-prod.fastly-edge.com,PROXY
+HOST,meta-ohttp-relay-prod.fastly-edge.com,PROXY
