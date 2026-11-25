@@ -1,0 +1,126 @@
+# NAME: Ai
+# Source: https://ddgksf2013.top/filter/Ai.yaml
+# AUTHOR: https://t.me/ddgksf2021
+# Upstream updated: 2026-09-30
+# Adapted for Quantumult X; excludes the Meta and Muse AI sections.
+
+# Ai general rules
+HOST,api.statsig.com,PROXY
+HOST,browser-intake-datadoghq.com,PROXY
+HOST,static.cloudflareinsights.com,PROXY
+HOST-SUFFIX,algolia.net,PROXY
+HOST-SUFFIX,auth0.com,PROXY
+HOST-SUFFIX,cloudflare.com,PROXY
+HOST-SUFFIX,arkoselabs.com,PROXY
+HOST-SUFFIX,statsigapi.net,PROXY
+HOST-SUFFIX,featuregates.org,PROXY
+HOST-SUFFIX,identrust.com,PROXY
+HOST-SUFFIX,intercom.io,PROXY
+HOST-SUFFIX,intercomcdn.com,PROXY
+HOST-SUFFIX,launchdarkly.com,PROXY
+HOST-SUFFIX,segment.io,PROXY
+HOST-SUFFIX,amazonaws.com,PROXY
+HOST-SUFFIX,wp.com,PROXY
+HOST-SUFFIX,sentry.io,PROXY
+HOST-SUFFIX,stripe.com,PROXY
+
+# Anthropic/Claude
+HOST,cdn.usefathom.com,PROXY
+HOST-SUFFIX,anthropic.com,PROXY
+HOST-SUFFIX,claude.ai,PROXY
+HOST-SUFFIX,claude.com,PROXY
+HOST-SUFFIX,claudeusercontent.com,PROXY
+
+# Cursor
+HOST-SUFFIX,cursor.sh,PROXY
+HOST-SUFFIX,cursor.com,PROXY
+HOST-SUFFIX,cursor-cdn.com,PROXY
+HOST-SUFFIX,cursorapi.com,PROXY
+HOST-SUFFIX,cursorvm.com,PROXY
+
+# Dify AI
+HOST-SUFFIX,dify.ai,PROXY
+
+# Google AI (Gemini/Bard)
+HOST,ai.google.dev,PROXY
+HOST,makersuite.google.com,PROXY
+HOST-SUFFIX,gemini.google.com,PROXY
+HOST-SUFFIX,apis.google.com,PROXY
+HOST-SUFFIX,clients6.google.com,PROXY
+HOST-SUFFIX,clients4.google.com,PROXY
+HOST-SUFFIX,deepmind.com,PROXY
+HOST-SUFFIX,deepmind.google,PROXY
+HOST-SUFFIX,generativeai.google,PROXY
+HOST-SUFFIX,colab.google.com,PROXY
+HOST-SUFFIX,colab.research.google.com,PROXY
+HOST-SUFFIX,developerprofiles.google.com,PROXY
+HOST-SUFFIX,googleusercontent.com,PROXY
+HOST-SUFFIX,googleapis.com,PROXY
+HOST-SUFFIX,proactivebackend-pa.googleapis.com,PROXY
+
+# JetBrains AI
+HOST-SUFFIX,grazie.ai,PROXY
+
+# Notebooklm
+HOST-SUFFIX,notebooklm.google.com,PROXY
+HOST-SUFFIX,notebooklm.google,PROXY
+
+# Microsoft Copilot
+HOST,api.msn.com,PROXY
+HOST,assets.msn.com,PROXY
+HOST,copilot.microsoft.com,PROXY
+HOST,gateway.bingviz.microsoft.net,PROXY
+HOST,gateway.bingviz.microsoftapp.net,PROXY
+HOST,in.appcenter.ms,PROXY
+HOST,location.microsoft.com,PROXY
+HOST,odc.officeapps.live.com,PROXY
+HOST,r.bing.com,PROXY
+HOST,self.events.data.microsoft.com,PROXY
+HOST,services.bingapis.com,PROXY
+HOST,sydney.bing.com,PROXY
+HOST,www.bing.com,PROXY
+HOST-SUFFIX,api.microsoftapp.net,PROXY
+HOST-SUFFIX,bing-shopping.microsoft-falcon.io,PROXY
+HOST-SUFFIX,edgeservices.bing.com,PROXY
+
+# Midjourney
+HOST-SUFFIX,midjourney.com,PROXY
+
+# OpenAI/ChatGPT
+HOST,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,PROXY
+HOST,openaicomproductionae4b.blob.core.windows.net,PROXY
+HOST,production-openaicom-storage.azureedge.net,PROXY
+HOST-SUFFIX,ai.com,PROXY
+HOST-SUFFIX,chatgpt.com,PROXY
+HOST-SUFFIX,livekit.cloud,PROXY
+HOST-SUFFIX,oaistatic.com,PROXY
+HOST-SUFFIX,oaiusercontent.com,PROXY
+HOST-SUFFIX,openai.com,PROXY
+HOST-SUFFIX,azureedge.net,PROXY
+HOST-SUFFIX,imgix.net,PROXY
+
+# Perplexity
+HOST,pplx-res.cloudinary.com,PROXY
+HOST-SUFFIX,perplexity.ai,PROXY
+HOST-SUFFIX,pplx.ai,PROXY
+HOST-SUFFIX,perplexity.com,PROXY
+
+# Poe
+HOST-SUFFIX,poe.com,PROXY
+HOST-SUFFIX,poecdn.net,PROXY
+
+# xAI/Grok
+HOST-SUFFIX,x.ai,PROXY
+HOST-SUFFIX,grok.com,PROXY
+
+# Mistral AI
+HOST-SUFFIX,mistral.ai,PROXY
+
+# Hugging Face
+HOST-SUFFIX,huggingface.co,PROXY
+HOST-SUFFIX,hf.co,PROXY
+HOST-SUFFIX,hf.space,PROXY
+
+# Manus
+HOST-SUFFIX,manus.im,PROXY
+HOST-SUFFIX,manuscdn.com,PROXY
